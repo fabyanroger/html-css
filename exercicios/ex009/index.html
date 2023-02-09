@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1"> <!--Posso colocar entre aspas 1, A, a, I, i. Caso eu queira iniciar com outro valor, digita após as aspas start="?"-->
+        <!--Quando após o type eu coloco I maiúsculo ou minisculo, fica em números romanos-->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Tomar banho</li>
+        <li>Escovar os dentes</li>
+        <li>Lavar roupa</li>
+        <!--Tag LI serve para listar em ordem, precisa estar dentro da Tag OL e depois Tag LI-->
+    </ol>
+
+    <h2>Listas não Ordenadas</h2>
+    <ul type="disc"> <!--Posso colocar entre aspas DISC, CIRCLE, SQUARE, sendo DISC o padrão-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5"> <!--O comando start="?" só funciona número, com letras não modifica-->
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Rotlin</li>
+        </ol>
+    </ol>
+
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>Futebol</li>
+        <ul type="square">
+            <li>FIFA</li>
+            <ul type="circle">
+                <li>FIFA14</li>
+                <li>FIFA15</li>
+                <li>FIFA16</li>
+            </ul>
+            <li>Bomba Patch</li>
+            <li>PES</li>
+        </ul type="square">
+        <li>Corrida</li>
+        <ul type="square">
+            <li>F1</li>
+            <li>Need for Speed</li>
+            <li>Real Racing</li>
+        </ul type="square">
+        <li>Tiro</li>
+        <ul type="square">
+            <li>Free Fire</li>
+            <li>CS</li>
+            <li>Hitman</li>
+        </ul type="square">
+    </ol>
+    <!--Para modificar várias tags ao mesmo tempo, basta ficar pressionado a tecla ALT e clicar com o mouse no local exato-->
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>

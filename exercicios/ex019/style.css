@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*
+Tudo que em HTML for id, em CSS é # (Aqui só pode um elemento)
+Tudo que em HTML for class, em CSS é . (Aqui pode vários elementos)
+
+mudo
+preso
+
+Só posso ter um id por documento HTML, em um outra página eu posso ter o mesmo id sem problema pra poder utilizar o CSS externo e facilitar
+*/
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #1e402f;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+}
+
+h2 {
+    color: #3c805e;
+}
+
+.basico {
+    color: #3c805e;
+}
+
+.intermediario {
+    color: #dac400;
+}
+
+.avancado {
+    color: #ff0000;
+}
+
+.destaque {
+    background-color: #c5c56070;
+}

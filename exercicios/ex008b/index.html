@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>documento.getElementBy('teste')</code> é escrito em linguagem JavaScript</p> <!--A tag CODE é utilizada para dar o mesmo espaçamento para cada caracter-->
+    <pre>
+        <code>
+    num = int(input)('Digite um número'))
+    if num % 2 == 0;
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre> <!--A tag PRE pelo que entendi, faz o texto digitado seguir o mesmo padrão-->
+    <!--Se quiser tirar o espaçamento, selecione o que deseja, pressione SHIFT e TAB ou apenas TAB para dar espaçamento-->
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p> <!--A utilização da tag Q é para citação tendo sentido, recomendado a utilização desta tag ao invés da própria aspas.-->
+    <h2>Citações completas</h2>
+    <!--Exemplo 1 de blockquote-->
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote>A diferença entre os elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.</blockquote>
+
+    <!--Exemplo 2 de blockquote-->
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Construindo_Web_Sites_Para_Leigos_Tradu/xlLcAwAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&printsec=frontcover">A diferença entre os elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.</blockquote>
+    <!--Ambas visualmente são iguais, mas os mecanismos de busca do google, a parte interna do seu site está referenciando o livro que está disponível no endereço fornecido para que você possa manter os direitos daqueles que produzem conteúdo-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+</body>
+</html>

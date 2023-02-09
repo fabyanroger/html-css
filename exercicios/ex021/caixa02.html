@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo em Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-image: linear-gradient( to right, #c4c4c4, #6a4278 ,#1a1a1a);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-image: linear-gradient( to right, #290b2c6f, #2f1d35 ,#4e3a56);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.416);
+        }
+        nav > a {
+            text-decoration:  none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main {
+            background-image: linear-gradient( to right, #c4c4c4, #6a4278 ,#1a1a1a);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+            box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.345);
+        }
+        article {
+            background-image: linear-gradient( to right, #c4c4c4a7, #efd0ffce);
+            padding: 5px;
+            text-align: justify;
+        }
+        article > aside {
+            background-image: linear-gradient( to right, #c4c4c4, #6a4278 ,#1a1a1a);
+            border-radius: 4px;
+        }
+        footer {
+            background-image: linear-gradient( to right, #500064, #ff00c3, #6a4278 ,#ff00c3, #500064);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-image: linear-gradient( to right, #500064, #ff00c3);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti iure nesciunt similique iste, rerum ullam, exercitationem molestiae distinctio sunt officia repudiandae nemo earum repellendus sit fuga nulla eos accusamus sint!</p>
+                <aside>
+                    <p>Artigo escrito por Fabyan Roger</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Fabyan Roger</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

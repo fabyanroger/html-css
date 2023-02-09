@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <!--Quando for abrir um outro site que não é seu, o ideal é colocar target="bank" rel="external"-->
+    <p>Você pode também acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YouTube</a></p>
+    <h2>Usando links internos</h2>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p>
+    
+    <h1>Links para Downloads</h1>
+    <ul>
+        <h3>Exemplo 1</h3>
+        <!--Exemplo 1 sem download="Notas N1.pdf"-->
+        <li><a href="Livro/Notas N1.pdf">Baixar o livro em PDF</a></li>
+        <li><a href="Livro/Notas N1.zip">Livro compactado em ZIP</a></li>
+
+        <h3>Exemplo 2</h3>
+        <!--Exemplo 2 com download="Notas N1.pdf"-->
+        <li><a href="Livro/Notas N1.pdf" download="Notas N1.pdf">Baixar o livro em PDF</a></li>
+        <li><a href="Livro/Notas N1.zip">Livro compactado em ZIP</a></li>
+
+        <h3>Exemplo 3</h3>
+        <!--Exemplo 3 ensinado pelo professor em 2021-->
+        <li><a href="Livro/Notas N1.pdf" download="Notas N1.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="Livro/Notas N1.zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work Sans', Arial, Helvetica, sans-serif;
+
+            /*font-size: 16px;
+            font-weight: bolder; /*fonte-weight é o peso da fonte*/
+            /*font-style: italic; /*italico*/
+            /*text-decoration: underline; /*sublinha*/
+            /*A famílinha de fontes tem que possibilitar as 3 configurações, nem todas as fontes possibilita isso*/
+
+            /*
+            weight - peso
+            width  - largura
+            height - altura*/
+            /*Para indicar alguns pesos da fonte, existem valores aceitos para algumas fontes:
+            lighter
+            normal
+            bold
+            bolder
+            */
+        }
+        /*Outra possibilidade de adicionar seria como no exemplo abaixo*/
+        h1 {/*
+            font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            /* Shorthand font condesar na ordem:
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'work Sans', sans-serif;
+            /*colocando isso que está acima, pode tirar tudo que estiver acima disso mas dentro do h1, existem vários shorthans*/
+        }
+
+        h2 {
+            font: bold 2em 'work Sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>O peso da fonte em CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse asperiores labore, nostrum a quae error eos ut sint maiores, repudiandae blanditiis quidem alias sapiente doloremque itaque, dicta distinctio nobis optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, aliquid eveniet obcaecati asperiores numquam perferendis, est voluptatum itaque, sit fugiat reiciendis maxime vero assumenda earum esse placeat culpa quam qui. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione voluptatibus, ducimus ullam repellendus, quo labore saepe in vitae iusto voluptas ipsum quas inventore tempore tenetur necessitatibus cumque temporibus deserunt accusamus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo eveniet, eos vel ratione pariatur delectus fuga! Nulla qui dicta accusantium sit libero voluptates iste temporibus, est harum unde rerum mollitia?</p>
+    
+    <h2>Subtítulodo exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto placeat eligendi nostrum ab laboriosam similique, perferendis necessitatibus quia enim corrupti repudiandae non ullam deleniti optio eveniet amet, aspernatur voluptate illo.</p>
+</body>
+</html>
