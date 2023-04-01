@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            background-color: #efefef;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: #d3d4d7;
+            color: black;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--Anatomia para tabelas grandes
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/22px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/33px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/44px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png 2x" data-file-width="780" data-file-height="520"> São Paulo</td>
+                <td class="num">46 024 937	</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/20px-Bandeira_de_Minas_Gerais.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/30px-Bandeira_de_Minas_Gerais.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/40px-Bandeira_de_Minas_Gerais.svg.png 2x" data-file-width="600" data-file-height="420"> Minas Gerais</td>
+                <td class="num">20 732 660</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/20px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/30px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/40px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png 2x" data-file-width="1000" data-file-height="700"> Rio de Janeiro</td>
+                <td class="num">16 615 526</td>
+            </tr>
+            <tr>
+                <td><img alt="Bahia" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/20px-Bandeira_da_Bahia.svg.png" decoding="async" width="20" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/30px-Bandeira_da_Bahia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/40px-Bandeira_da_Bahia.svg.png 2x" data-file-width="1500" data-file-height="1000"> Bahia</td>
+                <td class="num">14 659 023</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bandeira_do_Rio_Grande_do_Sul.svg/20px-Bandeira_do_Rio_Grande_do_Sul.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bandeira_do_Rio_Grande_do_Sul.svg/30px-Bandeira_do_Rio_Grande_do_Sul.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bandeira_do_Rio_Grande_do_Sul.svg/40px-Bandeira_do_Rio_Grande_do_Sul.svg.png 2x" data-file-width="1000" data-file-height="700"> Rio Grande do Sul</td>
+                <td class="num">11 088 065</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bandeira_do_Paran%C3%A1.svg/20px-Bandeira_do_Paran%C3%A1.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bandeira_do_Paran%C3%A1.svg/30px-Bandeira_do_Paran%C3%A1.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bandeira_do_Paran%C3%A1.svg/40px-Bandeira_do_Paran%C3%A1.svg.png 2x" data-file-width="621" data-file-height="434"> Paraná</td>
+                <td class="num">11 835 379</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bandeira_de_Pernambuco.svg/20px-Bandeira_de_Pernambuco.svg.png" decoding="async" width="20" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bandeira_de_Pernambuco.svg/30px-Bandeira_de_Pernambuco.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bandeira_de_Pernambuco.svg/40px-Bandeira_de_Pernambuco.svg.png 2x" data-file-width="540" data-file-height="360"> Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bandeira_do_Cear%C3%A1.svg/20px-Bandeira_do_Cear%C3%A1.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bandeira_do_Cear%C3%A1.svg/30px-Bandeira_do_Cear%C3%A1.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bandeira_do_Cear%C3%A1.svg/40px-Bandeira_do_Cear%C3%A1.svg.png 2x" data-file-width="720" data-file-height="504"> Ceará</td>
+                <td class="num">8 936 431</td>
+            </tr>
+            <tr>
+                <td><img alt="Pará" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bandeira_do_Par%C3%A1.svg/20px-Bandeira_do_Par%C3%A1.svg.png" decoding="async" width="20" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bandeira_do_Par%C3%A1.svg/30px-Bandeira_do_Par%C3%A1.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bandeira_do_Par%C3%A1.svg/40px-Bandeira_do_Par%C3%A1.svg.png 2x" data-file-width="900" data-file-height="600"> Pará</td>
+                <td class="num">8 442 962</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Bandeira_do_Maranh%C3%A3o.svg/20px-Bandeira_do_Maranh%C3%A3o.svg.png" decoding="async" width="20" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Bandeira_do_Maranh%C3%A3o.svg/30px-Bandeira_do_Maranh%C3%A3o.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/45/Bandeira_do_Maranh%C3%A3o.svg/40px-Bandeira_do_Maranh%C3%A3o.svg.png 2x" data-file-width="1350" data-file-height="900"> Maranhão</td>
+                <td class="num">6 800 605</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bandeira_de_Santa_Catarina.svg/20px-Bandeira_de_Santa_Catarina.svg.png" decoding="async" width="20" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bandeira_de_Santa_Catarina.svg/30px-Bandeira_de_Santa_Catarina.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bandeira_de_Santa_Catarina.svg/40px-Bandeira_de_Santa_Catarina.svg.png 2x" data-file-width="836" data-file-height="608"> Santa Catarina</td>
+                <td class="num">7 762 154</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Goi%C3%A1s.svg/20px-Flag_of_Goi%C3%A1s.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Goi%C3%A1s.svg/30px-Flag_of_Goi%C3%A1s.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Goi%C3%A1s.svg/40px-Flag_of_Goi%C3%A1s.svg.png 2x" data-file-width="560" data-file-height="392"> Goiás</td>
+                <td class="num">6 950 976</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bandeira_da_Para%C3%ADba.svg/20px-Bandeira_da_Para%C3%ADba.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bandeira_da_Para%C3%ADba.svg/30px-Bandeira_da_Para%C3%ADba.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bandeira_da_Para%C3%ADba.svg/40px-Bandeira_da_Para%C3%ADba.svg.png 2x" data-file-width="2000" data-file-height="1400"> Paraíba</td>
+                <td class="num">4 030 961</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bandeira_do_Esp%C3%ADrito_Santo.svg/20px-Bandeira_do_Esp%C3%ADrito_Santo.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bandeira_do_Esp%C3%ADrito_Santo.svg/30px-Bandeira_do_Esp%C3%ADrito_Santo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bandeira_do_Esp%C3%ADrito_Santo.svg/40px-Bandeira_do_Esp%C3%ADrito_Santo.svg.png 2x" data-file-width="2000" data-file-height="1400"> Espírito Santo</td>
+                <td class="num">4 108 508</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bandeira_do_Amazonas.svg/20px-Bandeira_do_Amazonas.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bandeira_do_Amazonas.svg/30px-Bandeira_do_Amazonas.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bandeira_do_Amazonas.svg/40px-Bandeira_do_Amazonas.svg.png 2x" data-file-width="700" data-file-height="500"> Amazonas</td>
+                <td class="num">3 952 262</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bandeira_do_Rio_Grande_do_Norte.svg/20px-Bandeira_do_Rio_Grande_do_Norte.svg.png" decoding="async" width="20" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bandeira_do_Rio_Grande_do_Norte.svg/30px-Bandeira_do_Rio_Grande_do_Norte.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bandeira_do_Rio_Grande_do_Norte.svg/40px-Bandeira_do_Rio_Grande_do_Norte.svg.png 2x" data-file-width="900" data-file-height="600"> Rio Grande do Norte</td>
+                <td class="num">3 303 953</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bandeira_de_Alagoas.svg/20px-Bandeira_de_Alagoas.svg.png" decoding="async" width="20" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bandeira_de_Alagoas.svg/30px-Bandeira_de_Alagoas.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bandeira_de_Alagoas.svg/40px-Bandeira_de_Alagoas.svg.png 2x" data-file-width="600" data-file-height="400"> Alagoas</td>
+                <td class="num">3 125 254</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bandeira_do_Piau%C3%AD.svg/20px-Bandeira_do_Piau%C3%AD.svg.png" decoding="async" width="20" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bandeira_do_Piau%C3%AD.svg/30px-Bandeira_do_Piau%C3%AD.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bandeira_do_Piau%C3%AD.svg/40px-Bandeira_do_Piau%C3%AD.svg.png 2x" data-file-width="1950" data-file-height="1300"> Piauí</td>
+                <td class="num">3 270 174</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Bandeira_de_Mato_Grosso.svg/20px-Bandeira_de_Mato_Grosso.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Bandeira_de_Mato_Grosso.svg/30px-Bandeira_de_Mato_Grosso.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Bandeira_de_Mato_Grosso.svg/40px-Bandeira_de_Mato_Grosso.svg.png 2x" data-file-width="2000" data-file-height="1400"> Mato Grosso</td>
+                <td class="num">3 784 239</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bandeira_de_Mato_Grosso_do_Sul.svg/20px-Bandeira_de_Mato_Grosso_do_Sul.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bandeira_de_Mato_Grosso_do_Sul.svg/30px-Bandeira_de_Mato_Grosso_do_Sul.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bandeira_de_Mato_Grosso_do_Sul.svg/40px-Bandeira_de_Mato_Grosso_do_Sul.svg.png 2x" data-file-width="1000" data-file-height="700"> Mato Grosso do Sul</td>
+                <td class="num">2 833 742</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bandeira_de_Sergipe.svg/20px-Bandeira_de_Sergipe.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bandeira_de_Sergipe.svg/30px-Bandeira_de_Sergipe.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bandeira_de_Sergipe.svg/40px-Bandeira_de_Sergipe.svg.png 2x" data-file-width="1050" data-file-height="750"> Sergipe</td>
+                <td class="num">2 833 742</td>
+            </tr>
+            <tr>
+                <td> <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bandeira_de_Rond%C3%B4nia.svg/20px-Bandeira_de_Rond%C3%B4nia.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bandeira_de_Rond%C3%B4nia.svg/30px-Bandeira_de_Rond%C3%B4nia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bandeira_de_Rond%C3%B4nia.svg/40px-Bandeira_de_Rond%C3%B4nia.svg.png 2x" data-file-width="2000" data-file-height="1400"> Rondônia</td>
+                <td class="num">1 616 379</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Bandeira_do_Tocantins.svg/20px-Bandeira_do_Tocantins.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Bandeira_do_Tocantins.svg/30px-Bandeira_do_Tocantins.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Bandeira_do_Tocantins.svg/40px-Bandeira_do_Tocantins.svg.png 2x" data-file-width="512" data-file-height="358"> Tocantins</td>
+                <td class="num">1 584 306</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bandeira_do_Acre.svg/20px-Bandeira_do_Acre.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bandeira_do_Acre.svg/30px-Bandeira_do_Acre.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bandeira_do_Acre.svg/40px-Bandeira_do_Acre.svg.png 2x" data-file-width="500" data-file-height="350"> Acre</td>
+                <td class="num">829 780</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bandeira_do_Amap%C3%A1.svg/20px-Bandeira_do_Amap%C3%A1.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bandeira_do_Amap%C3%A1.svg/30px-Bandeira_do_Amap%C3%A1.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bandeira_do_Amap%C3%A1.svg/40px-Bandeira_do_Amap%C3%A1.svg.png 2x" data-file-width="1000" data-file-height="700"> Amapá</td>
+                <td class="num">774 268</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Bandeira_de_Roraima.svg/20px-Bandeira_de_Roraima.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Bandeira_de_Roraima.svg/30px-Bandeira_de_Roraima.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/98/Bandeira_de_Roraima.svg/40px-Bandeira_de_Roraima.svg.png 2x" data-file-width="2000" data-file-height="1400"> Roraima</td>
+                <td class="num">634 805</td>
+            </tr>
+            <tr>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bandeira_do_Distrito_Federal_%28Brasil%29.svg/20px-Bandeira_do_Distrito_Federal_%28Brasil%29.svg.png" decoding="async" width="20" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bandeira_do_Distrito_Federal_%28Brasil%29.svg/30px-Bandeira_do_Distrito_Federal_%28Brasil%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bandeira_do_Distrito_Federal_%28Brasil%29.svg/40px-Bandeira_do_Distrito_Federal_%28Brasil%29.svg.png 2x" data-file-width="1500" data-file-height="1050"> Distrito Federal</td>
+                <td class="num">2 923 369</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num"><strong>207.883.699</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
