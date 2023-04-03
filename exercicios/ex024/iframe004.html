@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+    <h1>Meu Site Principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptas nulla optio eveniet eius accusamus. Itaque dolor vitae error officiis voluptate minus autem, provident placeat possimus, illum est architecto quis?</p>
+
+    <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer"> 
+        
+        <!--o sandbox bloqueia todo e qualquer acesso que outros sites que estejam dentro do iframe tentem fazer como por exemplo o cadastro de pessoas acima-->
+
+        <!--o referrerpolicy vem com padrão "no-referer-when-downgrade", se quiser tornar o site um pouco mais limitado o que ta dentro do iframe é só colocar o valor "no-referrer"-->
+
+        <!--Dentro do sandbox
+            sandbox - liga toda a segurança no máximo;
+
+            allow-same-origin - permite conteúdo de mesma origem, do mesmo servidor que o meu;
+
+            allow-forms - permite formulários;
+
+            allow-scripts - permite scripts.
+
+            todas as outras continuam ligadas na segurança
+        
+        -->
+        <p>Seu navegador não é compatível com isso...</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptas nulla optio eveniet eius accusamus. Itaque dolor vitae error officiis voluptate minus autem, provident placeat possimus, illum est architecto quis?</p>
+</body>
+</html>
