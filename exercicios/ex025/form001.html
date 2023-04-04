@@ -13,10 +13,22 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form>
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="snome" id="snome"></p>
-        <input type="submit" value="Confirmar">
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <!--autocomplete="off" para desativar sugestoes no input-->
+        <!--action="cadasttro.php tem a funcão de enviar os dados para o arquivo php"-->
+        
+        <!--nesse for abaixo, sempre precisa receber o ID-->
+        <p><label for="inome">Nome:</label>
+            <!--
+                name="nome" id="nome"
+                name é útil para html e php
+                id é mais importante para javascript
+            --> 
+            <input type="text" name="nome" id="inome"></p>
+        
+            <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
